@@ -6,6 +6,8 @@
   --color-accent: rgb(51, 95, 255);
   --color-maroon: rgb(150, 0, 0);
   --image-size: 180px;
+
+  --color-black: rgb(0, 0, 0);
 }
 
 
@@ -24,6 +26,7 @@ body {
 }
 
 nav {
+  z-index: 100;
   position: sticky;
   top: 0;
   background: #191A1F;
@@ -84,5 +87,5 @@ footer>p {
   background-color: white;
   padding: 50px;
   margin: 20px;
-  border-radius: 10px;
+  border-radius: 5px;
 }
