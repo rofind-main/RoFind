@@ -63,6 +63,11 @@ export function createCard({
     viewer.querySelector('#author_link').textContent = author;
     viewer.querySelector("#play_count_value").textContent = playCount
     viewer.style.display = 'grid';
+
+    viewer.querySelector("#play_btn").addEventListener('click', (e) => {
+      window.location.href = `roblox://placeId=${placeId}`;
+    })
+
   });
 
   return card;
