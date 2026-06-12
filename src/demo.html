@@ -12,8 +12,9 @@
   <link rel="stylesheet" href="./styles/input.css">
   <link rel="stylesheet" href="./styles/card.css">
 
-  <!-- removed subission js this just demo and submission is still on work -->
   <script type="module" src="./scripts/submissionForm.js" defer></script>
+
+  <script src="./scripts/loader.js" defer></script>
 
   <!-- Temporary icons bruh -->
   <script src="https://cdn.jsdelivr.net/npm/lucide@1.17.0/dist/umd/lucide.min.js"></script>
@@ -26,8 +27,11 @@
 
 <body>
   <nav>
-    <h1 class="appname">RoFind</h1>
-    <h1 class="g">DEMO</h1>
+    <span style="display: flex; flex-direction: row; gap: 10px">
+      <h1 class="appname" style="margin: 0; ">RoFind</h1>
+      <h1 class="g" style="margin: 0; text-align: end;">WEB</h1>
+    </span>
+
     <div></div>
     <input class="btn game_submission" type="button" value="Submit Game" style="height: 100%;" />
     <input class="btn normal_button" type="button" value="User" disabled
